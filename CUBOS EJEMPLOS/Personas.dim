@@ -1,0 +1,370 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="be1aa6c7-d561-4e95-bf9c-71a3d52a4e7a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Personas</ID>
+  <Name>Personas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2375" scrolltop="-7885" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7990" y="20770" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="personas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3201" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000810c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_personas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2375</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7885</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="129">
+            <Shape Id="RazonSocial" Expanded="false">
+              <Attributes>
+                <Attribute Id="RazonSocial" />
+                <Attribute Id="CondicionPago" />
+                <Attribute Id="TipoDocumento" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Zona" Expanded="false">
+              <Attributes>
+                <Attribute Id="Zona" />
+              </Attributes>
+              <Position x="186" y="20" />
+            </Shape>
+            <Shape Id="Estado" Expanded="false">
+              <Attributes>
+                <Attribute Id="Estado" />
+              </Attributes>
+              <Position x="186" y="68" />
+            </Shape>
+            <Shape Id="TipoPersona" Expanded="false">
+              <Attributes>
+                <Attribute Id="TipoPersona" />
+              </Attributes>
+              <Position x="352" y="68" />
+            </Shape>
+            <Shape Id="Departamento" Expanded="false">
+              <Attributes>
+                <Attribute Id="Departamento" />
+              </Attributes>
+              <Position x="186" y="116" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="369f828d-bd61-46f3-8fea-b2c72b87f9f9">
+    <DataSourceViewID>Esquema Ventas</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="7fbd92d2-a874-493f-8eee-8dbfb346d036">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="37cef95d-dea1-44ed-89a3-ed06e101fc45">
+      <ID>RazonSocial</ID>
+      <Name>RazonSocial</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc4ae57e-a405-4594-b7f6-4ed956f52855">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3b0ad1ea-717b-43a2-8c90-c993adc0b782">
+            <TableID>dim_personas</TableID>
+            <ColumnID>personaId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a71638c1-3dfd-4705-b1e8-0522ce544a6f">
+        <DataType>WChar</DataType>
+        <DataSize>200</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0560ee1a-595e-47f6-b775-b1d93bd90ee5">
+          <TableID>dim_personas</TableID>
+          <ColumnID>razonSocial</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ab64b372-d6b6-43ce-a07f-31e3f9bc62eb">
+          <AttributeID>TipoDocumento</AttributeID>
+          <Name>TipoDocumento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d699b9d4-17dd-4100-9f1b-d26f622b7395">
+          <AttributeID>Departamento</AttributeID>
+          <Name>Departamento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bc8e957c-59c2-4070-bf81-9b6abfeb6ef1">
+          <AttributeID>Estado</AttributeID>
+          <Name>Estado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2cdc6853-d37c-4156-89ff-f56a1c4ef34b">
+          <AttributeID>CondicionPago</AttributeID>
+          <Name>CondicionPago</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="55a30146-3643-417e-9d4a-389a23cefb56">
+          <AttributeID>Zona</AttributeID>
+          <Name>Zona</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="809e3528-e6e9-433f-9978-0f8e03faeec4">
+      <ID>TipoDocumento</ID>
+      <Name>TipoDocumento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="219e7861-ab06-4a3e-a9d9-42208a60c85e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d779938e-7d38-44d3-ae20-7a8ef5387f7f">
+            <TableID>dim_personas</TableID>
+            <ColumnID>tipoDocumento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c496dd06-d962-4334-a474-e4d88a9c6790">
+      <ID>Departamento</ID>
+      <Name>Departamento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="317a4ce3-fe7d-41b3-b5bb-f1359dc2c500">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="98453eea-3c76-4ded-afd8-80807a14f7fb">
+            <TableID>dim_personas</TableID>
+            <ColumnID>departamento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce0145c1-db01-493f-a4a2-4264887af8da">
+      <ID>Estado</ID>
+      <Name>Estado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d7f4b845-c4aa-43b7-86f7-0ea146d8525e">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cdc9585a-548c-4117-bb68-fd080ce112b5">
+            <TableID>dim_personas</TableID>
+            <ColumnID>estado</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="b94b7608-b280-4a1e-89bf-0afff6bffa0e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9a103a63-399a-4d02-b7dc-7c169ef27516">
+            <TableID>dim_personas</TableID>
+            <ColumnID>tipoPersona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="8e831b63-eec4-4883-aa34-352a707fdca5">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="268e1104-5378-4725-b42c-bf8143e630ad">
+          <TableID>dim_personas</TableID>
+          <ColumnID>estado</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fbd9196d-df0e-4c83-9d3e-b20e891853c4">
+          <AttributeID>TipoPersona</AttributeID>
+          <Name>TipoPersona</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="40f0814a-7919-473c-a6c0-439607bcd235">
+      <ID>CondicionPago</ID>
+      <Name>CondicionPago</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3bda931a-95ea-4199-b987-7fae6b36661d">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dbb3b145-6230-4805-a619-6e463b75a0c7">
+            <TableID>dim_personas</TableID>
+            <ColumnID>condicionPago</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9155b6d7-fadd-4e0b-ad8d-780aa6c184fb">
+      <ID>TipoPersona</ID>
+      <Name>TipoPersona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4e4dd4cd-6411-4742-aae5-3a3d0fcf14ad">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cf944549-c1fc-45a6-83ec-2c9b4aa6c2c8">
+            <TableID>dim_personas</TableID>
+            <ColumnID>tipoPersona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0bf9d4de-3363-4cf4-b237-1061d00cf704">
+      <ID>Zona</ID>
+      <Name>Zona</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a75b4d88-97a2-40ec-a859-cda21b4b44cf">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17adcc17-cb0d-4bd6-9353-0ba3bd29fd08">
+            <TableID>dim_personas</TableID>
+            <ColumnID>zona</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>TODOS</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="808a118f-b0bd-44e6-be63-af9da34d48ac">
+      <ID>Jerarquía</ID>
+      <Name>ESTADO-CLIENTE</Name>
+      <AllMemberName>TODOS</AllMemberName>
+      <Levels>
+        <Level dwd:design-time-name="7c97f889-800d-4a48-9150-f63ea68d466d">
+          <ID>Estado</ID>
+          <Name>Estado</Name>
+          <SourceAttributeID>Estado</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3f87e442-7088-46cf-94c7-95af01dc4408">
+          <ID>RazonSocial</ID>
+          <Name>RazonSocial</Name>
+          <SourceAttributeID>RazonSocial</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="b77ff72d-ea9b-49f8-9dfa-65dc80d33de3">
+      <ID>Jerarquía 1</ID>
+      <Name>DEPARTAMENTO-CLIENTE</Name>
+      <AllMemberName>TODOS</AllMemberName>
+      <Levels>
+        <Level dwd:design-time-name="160dd9ed-e434-4f5a-9396-9fc607b4ad68">
+          <ID>Departamento</ID>
+          <Name>Departamento</Name>
+          <SourceAttributeID>Departamento</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8576c6d6-a526-402c-8222-3434ed78a67e">
+          <ID>RazonSocial</ID>
+          <Name>RazonSocial</Name>
+          <SourceAttributeID>RazonSocial</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="84741602-8532-4984-86df-783dfa27579e">
+      <ID>Jerarquía 2</ID>
+      <Name>TIPOSESTADO</Name>
+      <AllMemberName>TODOS</AllMemberName>
+      <Levels>
+        <Level dwd:design-time-name="79478b4f-677f-438c-8574-2733498fc9b1">
+          <ID>TipoPersona</ID>
+          <Name>TipoPersona</Name>
+          <SourceAttributeID>TipoPersona</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9ed07489-a5c2-4b99-8ce2-d78ce931dc01">
+          <ID>Estado</ID>
+          <Name>Estado</Name>
+          <SourceAttributeID>Estado</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5390835f-81be-4a0d-aab6-00316b9e747a">
+          <ID>RazonSocial</ID>
+          <Name>RazonSocial</Name>
+          <SourceAttributeID>RazonSocial</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="f1aaf693-5e10-4a3d-8c06-82adb7d0a5d4">
+      <ID>Jerarquía 3</ID>
+      <Name>ZONA-CLIENTE</Name>
+      <AllMemberName>TODOS</AllMemberName>
+      <Levels>
+        <Level dwd:design-time-name="07a87509-1e0e-4138-8c4e-0711dfb942a1">
+          <ID>Zona</ID>
+          <Name>Zona</Name>
+          <SourceAttributeID>Zona</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a4dec84e-29fd-4cdb-b5e7-ac4e80edfa5d">
+          <ID>RazonSocial</ID>
+          <Name>RazonSocial</Name>
+          <SourceAttributeID>RazonSocial</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

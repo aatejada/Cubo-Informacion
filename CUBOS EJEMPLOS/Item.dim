@@ -1,0 +1,449 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="02b72fa9-2314-4bc1-b1d4-acb0d05a8fac" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Item</ID>
+  <Name>Item</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2348" scrolltop="-7885" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7990" y="20770" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="item" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3254" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b60c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dim_item" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2348</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7885</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="148">
+            <Shape Id="DescripcionItem" Expanded="false">
+              <Attributes>
+                <Attribute Id="DescripcionItem" />
+                <Attribute Id="Codigo" />
+                <Attribute Id="Peso" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Linea" Expanded="false">
+              <Attributes>
+                <Attribute Id="Linea" />
+              </Attributes>
+              <Position x="210" y="20" />
+            </Shape>
+            <Shape Id="Modelo" Expanded="false">
+              <Attributes>
+                <Attribute Id="Modelo" />
+              </Attributes>
+              <Position x="210" y="68" />
+            </Shape>
+            <Shape Id="Sub Familia" Expanded="false">
+              <Attributes>
+                <Attribute Id="Sub Familia" />
+              </Attributes>
+              <Position x="210" y="116" />
+            </Shape>
+            <Shape Id="Familia" Expanded="false">
+              <Attributes>
+                <Attribute Id="Familia" />
+              </Attributes>
+              <Position x="400" y="116" />
+            </Shape>
+            <Shape Id="Grupo" Expanded="false">
+              <Attributes>
+                <Attribute Id="Grupo" />
+              </Attributes>
+              <Position x="590" y="116" />
+            </Shape>
+            <Shape Id="Marca" Expanded="false">
+              <Attributes>
+                <Attribute Id="Marca" />
+              </Attributes>
+              <Position x="210" y="164" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7108a78d-48ba-4ee7-a281-2ef3ee5fa60a">
+    <DataSourceViewID>Esquema Ventas</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="de6723b8-280d-433b-bd34-179367f9e70e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="33f58e0f-f320-4708-860f-a0880b7ff8a3">
+      <ID>DescripcionItem</ID>
+      <Name>DescripcionItem</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4a4949b0-27ce-4c9e-a4c1-6d2512794a9d">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f293f843-40cf-44d0-a71c-cafae46150a4">
+            <TableID>dim_item</TableID>
+            <ColumnID>itemId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6a196ea3-4390-4dac-b854-c50c9f850c9b">
+        <DataType>WChar</DataType>
+        <DataSize>200</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="bfc9db00-5083-41e7-a9fd-281be64db4e0">
+          <TableID>dim_item</TableID>
+          <ColumnID>descripcionItem</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="820a07d6-e12b-417e-b75f-80fe69420e91">
+          <AttributeID>Codigo</AttributeID>
+          <Name>Codigo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="be9e8ea7-e184-46a8-870e-fd2fe3c55a38">
+          <AttributeID>Peso</AttributeID>
+          <Name>Peso</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="484cdb0c-9d88-46e8-a5e1-7cacee6c94de">
+          <AttributeID>Marca</AttributeID>
+          <Name>Marca</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ab6ff692-80f2-485c-b84f-6e19de1e21f2">
+          <AttributeID>Sub Familia</AttributeID>
+          <Name>Sub Familia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f34eb0d4-1ffd-4f64-9e3f-8df96ffd8ee2">
+          <AttributeID>Modelo</AttributeID>
+          <Name>Modelo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fcd5d7ad-1c47-4925-a658-9dea750c20ea">
+          <AttributeID>Linea</AttributeID>
+          <Name>Linea</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4ccb9103-1163-4b8c-94b9-a30706805fbd">
+      <ID>Codigo</ID>
+      <Name>Codigo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e5d5a589-bccd-4b37-b635-1a00b19909d0">
+          <DataType>WChar</DataType>
+          <DataSize>60</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="53140788-9728-4f5e-b98a-8bb1890bf69b">
+            <TableID>dim_item</TableID>
+            <ColumnID>codigoItem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="774a3cdf-223f-44ac-a700-db34dc438f75">
+      <ID>Peso</ID>
+      <Name>Peso</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="da618992-a4dc-4de4-8cc7-b5f0756daeae">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="354ebaec-95aa-4edd-870b-9dafdb66f8e9">
+            <TableID>dim_item</TableID>
+            <ColumnID>pesoUnidadItem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="11a96306-2b2b-4785-a245-c1b8ce02dc08">
+      <ID>Marca</ID>
+      <Name>Marca</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a1dbef3f-757d-45fa-b155-1c78b69a7a6c">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af5d7a70-994e-4230-b240-51ee6e634a96">
+            <TableID>dim_item</TableID>
+            <ColumnID>marcaItem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0a565179-1f26-4e21-a877-eb425d41c066">
+      <ID>Grupo</ID>
+      <Name>Grupo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="35755b31-00fa-4792-8e99-898ce166a0f2">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f160f126-c628-435e-a604-b1eb956efc82">
+            <TableID>dim_item</TableID>
+            <ColumnID>grupoItem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="15030947-ea1f-4d85-8548-c66bb3c74d1a">
+      <ID>Familia</ID>
+      <Name>Familia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="63826798-8124-4f82-9107-e8320e6942f4">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="686d5595-1208-441c-91cc-27d0b9187f40">
+            <TableID>dim_item</TableID>
+            <ColumnID>familiaItem</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="af99f229-9af3-418a-8ed0-66df751d776c">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a35d54d-abc8-4d31-a60b-7cced57290ca">
+            <TableID>dim_item</TableID>
+            <ColumnID>grupoItem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e5c82b30-b8c0-4e25-a54c-327d58b60415">
+        <DataType>WChar</DataType>
+        <DataSize>200</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="bf97e5c1-d98e-4310-9f79-771839252893">
+          <TableID>dim_item</TableID>
+          <ColumnID>familiaItem</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="5d98d8fb-f47b-486d-9f07-3a7923eee98c">
+          <AttributeID>Grupo</AttributeID>
+          <Name>Grupo</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cd9e13e8-b6e6-4ce6-8b7a-44dab776652b">
+      <ID>Sub Familia</ID>
+      <Name>Sub Familia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a683f589-3f69-4fad-bd29-423715469984">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4ccd954-b38d-4126-8ecf-ea67f4263dde">
+            <TableID>dim_item</TableID>
+            <ColumnID>subFamiliaItem</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="71897d8c-7aee-48de-afbc-7e80ced8ac14">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c50b7bd5-f5ab-4d8f-a2b0-02a500f3393c">
+            <TableID>dim_item</TableID>
+            <ColumnID>familiaItem</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="87c3071f-8a5f-4e5c-99c9-b920fe23c59e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6318890a-2b9f-4583-9542-e9d6ad4bdaa6">
+            <TableID>dim_item</TableID>
+            <ColumnID>grupoItem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="6cf1f482-2d50-441f-b560-23d7fdb5ab3e">
+        <DataType>WChar</DataType>
+        <DataSize>200</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="faa7d477-74d5-49fa-996d-65e4a97cfddb">
+          <TableID>dim_item</TableID>
+          <ColumnID>subFamiliaItem</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a91822e8-b039-4c57-b8d2-9c572a238057">
+          <AttributeID>Familia</AttributeID>
+          <Name>Familia</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="db68a363-0a94-44c9-8a07-f509051435fe">
+      <ID>Modelo</ID>
+      <Name>Modelo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="940338d3-27cb-4551-b82f-9c5876d660df">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8bfeb46-37d4-419c-850d-fd47bc82b304">
+            <TableID>dim_item</TableID>
+            <ColumnID>modeloItem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fadc4491-a806-418c-91ca-49efcffd8837">
+      <ID>Linea</ID>
+      <Name>Linea</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9804171f-49ff-4e9e-bd2d-0cd472f5fc78">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ff9065b-98d2-4d7f-8922-f4035a28b91c">
+            <TableID>dim_item</TableID>
+            <ColumnID>lineaItem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <AttributeAllMemberName>TODOS</AttributeAllMemberName>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d798bad7-2bc7-4787-9312-9f56a4b82ae8">
+      <ID>Jerarquía</ID>
+      <Name>CLASIFICACION-ITEM</Name>
+      <AllMemberName>TODOS</AllMemberName>
+      <Levels>
+        <Level dwd:design-time-name="9f306257-c969-4d85-905e-5f352b7abd8c">
+          <ID>Grupo</ID>
+          <Name>Grupo</Name>
+          <SourceAttributeID>Grupo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="fdbd8a4e-d906-43da-8b82-19367245c141">
+          <ID>Familia</ID>
+          <Name>Familia</Name>
+          <SourceAttributeID>Familia</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="041b2ddd-566d-4a72-be84-e93ccbc2179f">
+          <ID>Sub Familia</ID>
+          <Name>Sub Familia</Name>
+          <SourceAttributeID>Sub Familia</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="c372a145-c56b-4c11-8e4a-ab1d7eb824aa">
+      <ID>Jerarquía 1</ID>
+      <Name>MARCAR-ITEM</Name>
+      <AllMemberName>TODOS</AllMemberName>
+      <Levels>
+        <Level dwd:design-time-name="bdf09da7-983f-4307-b269-d4fcf761009c">
+          <ID>Marca</ID>
+          <Name>Marca</Name>
+          <SourceAttributeID>Marca</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f7d97d81-d910-4d9f-b4a4-5c849a5f8522">
+          <ID>DescripcionItem</ID>
+          <Name>DescripcionItem</Name>
+          <SourceAttributeID>DescripcionItem</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="2752984a-39d6-4f65-9d93-e82792985156">
+      <ID>Jerarquía 2</ID>
+      <Name>MODELO-ITEM</Name>
+      <AllMemberName>TODOS</AllMemberName>
+      <Levels>
+        <Level dwd:design-time-name="b9c7d4ee-7d3c-465d-8589-b70022edb740">
+          <ID>Modelo</ID>
+          <Name>Modelo</Name>
+          <SourceAttributeID>Modelo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="897f71b0-6c0f-4dbf-b68f-af7c706c7593">
+          <ID>DescripcionItem</ID>
+          <Name>DescripcionItem</Name>
+          <SourceAttributeID>DescripcionItem</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="b4b973e4-8216-4a9e-bc2b-a3b1daea15e5">
+      <ID>Jerarquía 3</ID>
+      <Name>LINEA-ITEM</Name>
+      <AllMemberName>TODOS</AllMemberName>
+      <Levels>
+        <Level dwd:design-time-name="484ca54b-5b97-4b9c-817f-86ec2ee532a1">
+          <ID>Linea</ID>
+          <Name>Linea</Name>
+          <SourceAttributeID>Linea</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ac6e8a7d-a592-4f7e-8bf7-3bdadd7b9f9a">
+          <ID>DescripcionItem</ID>
+          <Name>DescripcionItem</Name>
+          <SourceAttributeID>DescripcionItem</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
